@@ -4,6 +4,7 @@ import jieba.analyse
 import math
 import sys
 
+
 # 去除文本内的空格、中文标点符号
 def del_reg(filename):
     reg = "[^0-9A-Za-z\u4e00-\u9fa5]"
